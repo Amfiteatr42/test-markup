@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crowdme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -12,13 +18,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/syles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <a href="./index.html" class="logo"> crowd<span>me</span> </a>
+        <nav class="main-nav">
+          <a href="./index.html" class="logo">
+            crowd<span class="logo--dark">me</span>
+          </a>
           <div class="menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -38,8 +46,8 @@
               </li>
             </ul>
           </div>
+          <button class="menu__btn" type="button">Login</button>
         </nav>
-        <button class="" type="button">Login</button>
       </div>
     </header>
 
@@ -48,7 +56,7 @@
       <section class="hero">
         <h1 class="hero__title">
           Intellectual Property has the Shelf Life
-          <span class="hero__title--small"></span>
+          <span class="hero__title--small">of a Banana</span>
         </h1>
         <button class="hero__button" type="button">Become a Member</button>
       </section>
@@ -146,6 +154,15 @@
                     aliqua.
                   </p>
                   <div class="project-cards__bar"></div>
+                  <div class="project-cards__progress">
+                    <p class="project-cards__progress-text">10% Funded</p>
+                    <p class="project-cards__progress-text">8 days left</p>
+                  </div>
+                  <div class="project-cards__details">
+                    <a href="" class="project-cards__details-link"
+                      >See project details</a
+                    >
+                  </div>
                 </div>
               </li>
               <li class="project-cards__item">
@@ -159,6 +176,16 @@
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
                   </p>
+                  <div class="project-cards__bar"></div>
+                  <div class="project-cards__progress">
+                    <p class="project-cards__progress-text">60% Funded</p>
+                    <p class="project-cards__progress-text">8 days left</p>
+                  </div>
+                  <div class="project-cards__details">
+                    <a href="" class="project-cards__details-link"
+                      >See project details</a
+                    >
+                  </div>
                 </div>
               </li>
               <li class="project-cards__item">
@@ -172,14 +199,72 @@
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
                   </p>
+                  <div class="project-cards__bar"></div>
+                  <div class="project-cards__progress">
+                    <p class="project-cards__progress-text">10% Funded</p>
+                    <p class="project-cards__progress-text">8 days left</p>
+                  </div>
+                  <div class="project-cards__details">
+                    <a href="" class="project-cards__details-link"
+                      >See project details</a
+                    >
+                  </div>
                 </div>
               </li>
             </ul>
           </div>
         </div>
       </section>
+
+      <!-- COMMUNITY -->
+      <section class="community">
+        <div class="container">
+          <h2 class="community__title">
+            Be Part of a Growing International Community
+          </h2>
+          <p class="community__text">
+            One of the challenges in networking is everybody thinks it's making
+            cold calls to strangers. Actually, it's the people who already have
+            strong trust relationships with you
+          </p>
+          <div class="comment-wrapper">
+            <div class="comment">
+              <div class="message">
+                <h2 class="message__title">One of the Best</h2>
+                <p class="message__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod taempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="author">
+              <img class="author__pic" src="#" alt="author's portrait" />
+              <p class="author__name">David Beckham</p>
+            </div>
+
+            <div class="comment">
+              <div class="message">
+                <h2 class="message__title">One of the Best</h2>
+                <p class="message__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod taempor incididunt ut labore et dolore magna
+                  aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="author">
+              <img src="#" alt="author's portrait" class="author__pic" />
+              <p class="author__name">David Beckham</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <img src="#" alt="brand logos" class="brands" />
+      <p class="copyrirght">Copyright &#169; 2001 - 2014 Cssauthor.com</p>
+    </footer>
   </body>
 </html>
