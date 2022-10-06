@@ -117,7 +117,7 @@ img {
 .hero {
   padding: 167px 15px;
   text-align: center;
-  background-image: linear-gradient(rgba(58, 59, 59, 0.29), rgba(60, 60, 60, 0.29)), url(/images/hero_desk.jpg);
+  background-image: linear-gradient(rgba(58, 59, 59, 0.29), rgba(60, 60, 60, 0.29)), url(../images/hero_desk.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -505,7 +505,7 @@ img {
   height: 16px;
   margin-left: 10px;
 
-  background-image: url(/images/small_triangle.jpg);
+  background-image: url(../images/small_triangle.jpg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -518,7 +518,7 @@ img {
   padding-bottom: 106px;
   text-align: center;
 
-  background-image: url(/images/community_bg.png);
+  background-image: url(../images/community_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -551,7 +551,7 @@ img {
   width: 400px;
   padding: 20px 40px 33px;
 
-  background-image: url(/images/comment_immitation.png);
+  background-image: url(../images/comment_immitation.png);
   background-repeat: no-repeat;
 }
 
@@ -606,6 +606,5 @@ img {
   font-size: 13.2px;
   color: #848484;
   text-align: center;
-
   border-top: 1px solid #efefef;
 }
