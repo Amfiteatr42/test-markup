@@ -64,17 +64,24 @@
       <!-- CAPABILITIES -->
       <section class="capabilities">
         <div class="container">
-          <img src="#" alt="it should be svg actually" />
+          <img
+            class="capabilities__icon"
+            src="./images/capabilities_icon.png"
+            alt="it should be svg actually"
+            width="58"
+          />
           <h2 class="capabilities__title">
             Our work is the presentation of our capabilities.
           </h2>
           <p class="capabilities__text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation Ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+            ad minim veniam, quis nostrud exercitation
+          </p>
+          <p class="capabilities__text">
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur.
           </p>
         </div>
       </section>
@@ -82,24 +89,33 @@
       <!-- FEATURES -->
       <section class="features">
         <div class="container">
-          <h2 class="visually_hidden">features</h2>
+          <h2 class="visually-hidden">features</h2>
           <div class="tabs">
             <ul class="tabs__list">
-              <li class="tabs__item">Simple</li>
+              <li class="tabs__item tabs__item--active">Simple</li>
               <li class="tabs__item">Transparent</li>
               <li class="tabs__item">Collaborative</li>
             </ul>
           </div>
           <div class="features-wrap">
-            <h3 class="features__subtitle">
-              Browse projects, like booking a hotel online !
-            </h3>
-            <p class="features__text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <img
+              src="./images/features_glasses.png"
+              alt="glasses"
+              class="features__pic"
+              width="113"
+              height="102"
+            />
+            <div class="features__description">
+              <h3 class="features__subtitle">
+                Browse projects, like booking a hotel online !
+              </h3>
+              <p class="features__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et do lore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -109,22 +125,39 @@
         <div class="container">
           <div class="services__wrapper">
             <h2 class="visually-hidden">Our sercives</h2>
-            <div class="services__wrapper">
-              <img src="#" alt="arm-chair with lamp" />
-              <h3 class="services__subtitle">Find properties</h3>
-              <p class="services__text">
-                Sign up to browse the portfolio. Your journey to becoming a real
-                estate baron starts here.
-              </p>
-              <button type="button">Become a member</button>
-
-              <img src="#" alt="arm-chair with lamp" />
-              <h3 class="services__subtitle">Find buyers</h3>
-              <p class="services__text">
-                Sign up to browse the portfolio. Your journey to becoming a real
-                estate baron starts here.
-              </p>
-              <button type="button">Submit your project</button>
+            <div class="services__card">
+              <img
+                src="./images/services_chair.png"
+                alt="arm-chair with lamp"
+                width="133"
+                height="112"
+              />
+              <div class="card-wrapper">
+                <h3 class="services__subtitle">Find properties</h3>
+                <p class="services__text">
+                  Sign up to browse the portfolio. Your journey to becoming a
+                  real estate baron starts here.
+                </p>
+                <button class="button" type="button">Become a member</button>
+              </div>
+            </div>
+            <div class="services__card">
+              <img
+                src="./images/services_wallet.png"
+                alt="wallet"
+                width="101"
+                height="92"
+              />
+              <div class="card-wrapper">
+                <h3 class="services__subtitle">Find buyers</h3>
+                <p class="services__text">
+                  Sign up to browse the portfolio. Your journey to becoming a
+                  real estate baron starts here.
+                </p>
+                <button class="button" type="button">
+                  Submit your project
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -133,17 +166,33 @@
       <!-- FEATURED PROJECTS -->
       <section class="projects">
         <div class="container">
-          <h2 class="projects__title">Featured projects</h2>
-          <p class="projects__text">
-            Brief details of new and popular projects. To view full listings,
-            you will be required to sign up and become a member.
-          </p>
-          <button type="button">Become a Member</button>
+          <div class="projects-wrapper">
+            <div class="projects-header">
+              <h2 class="projects__title">Featured projects</h2>
+              <p class="projects__text">
+                Brief details of new and popular projects. To view full
+                listings, you will be required to sign up and become a member.
+              </p>
+            </div>
+            <button class="button button--projects" type="button">
+              Become a Member
+            </button>
+          </div>
 
           <div class="project-cards">
             <ul class="project-cards__list">
               <li class="project-cards__item">
-                <img src="#" alt="estate picture" />
+                <img
+                  class="project-cards__pic"
+                  src="./images/projects1.jpg"
+                  alt="estate picture"
+                  width="300"
+                  height="226"
+                />
+                <p class="project-cards__pic-text">
+                  From &nbsp
+                  <span class="project-cards__pic-text--bald">GBP 3600</span>
+                </p>
                 <div class="project-cards__wrapper">
                   <h3 class="project-cards__subtitle">
                     Ontario Tower , LONDON
@@ -166,7 +215,17 @@
                 </div>
               </li>
               <li class="project-cards__item">
-                <img src="#" alt="estate picture" />
+                <img
+                  class="project-cards__pic"
+                  src="./images/projects2.jpg"
+                  alt="estate picture"
+                  width="300"
+                  height="226"
+                />
+                <p class="project-cards__pic-text">
+                  From &nbsp
+                  <span class="project-cards__pic-text--bald">GBP 3600</span>
+                </p>
                 <div class="project-cards__wrapper">
                   <h3 class="project-cards__subtitle">
                     Ontario Tower , LONDON
@@ -176,7 +235,9 @@
                     sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua.
                   </p>
-                  <div class="project-cards__bar"></div>
+                  <div
+                    class="project-cards__bar project-cards__bar--width"
+                  ></div>
                   <div class="project-cards__progress">
                     <p class="project-cards__progress-text">60% Funded</p>
                     <p class="project-cards__progress-text">8 days left</p>
@@ -189,7 +250,17 @@
                 </div>
               </li>
               <li class="project-cards__item">
-                <img src="#" alt="estate picture" />
+                <img
+                  class="project-cards__pic"
+                  src="./images/projects3.jpg"
+                  alt="estate picture"
+                  width="300"
+                  height="226"
+                />
+                <p class="project-cards__pic-text">
+                  From &nbsp
+                  <span class="project-cards__pic-text--bald"> GBP 3600</span>
+                </p>
                 <div class="project-cards__wrapper">
                   <h3 class="project-cards__subtitle">
                     Ontario Tower , LONDON
@@ -237,10 +308,15 @@
                   aliqua.
                 </p>
               </div>
-            </div>
-            <div class="author">
-              <img class="author__pic" src="#" alt="author's portrait" />
-              <p class="author__name">David Beckham</p>
+              <div class="author">
+                <img
+                  class="author__pic"
+                  src="./images/comment1.jpg"
+                  alt="author's portrait"
+                  width="60"
+                />
+                <p class="author__name">David Beckham</p>
+              </div>
             </div>
 
             <div class="comment">
@@ -252,18 +328,23 @@
                   aliqua.
                 </p>
               </div>
-            </div>
-            <div class="author">
-              <img src="#" alt="author's portrait" class="author__pic" />
-              <p class="author__name">David Beckham</p>
+              <div class="author">
+                <img
+                  src="./images/comment2.png"
+                  alt="author's portrait"
+                  class="author__pic"
+                  width="60"
+                />
+                <p class="author__name">David Beckham</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <img src="#" alt="brand logos" class="brands" />
+    <footer class="footer">
+      <img src="./images/footer_brands.jpg" alt="brand logos" class="brands" />
       <p class="copyrirght">Copyright &#169; 2001 - 2014 Cssauthor.com</p>
     </footer>
   </body>
