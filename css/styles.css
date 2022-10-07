@@ -341,6 +341,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 66px;
 }
 
 .projects__title {
@@ -357,8 +358,6 @@ img {
 }
 
 .projects__text {
-  margin-bottom: 66px;
-
   font-size: 17.2px;
   line-height: 1.2;
   font-weight: 400;
